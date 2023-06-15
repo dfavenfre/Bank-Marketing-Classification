@@ -1,4 +1,4 @@
-# Bank-Marketing-Classification
+# Bank Customer Deposit Prediction
  
 
 ## Model Workflow
