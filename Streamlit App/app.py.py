@@ -4,6 +4,9 @@ import joblib
 import time
 from datetime import datetime
 from typing import Iterable
+import pickle
+
+
 
 def main():
 
@@ -45,7 +48,9 @@ def main():
 
     # Load Model
     try:
-        xgbclassifier = joblib.load("Model/blncd_xgbclassifier.joblib")
+        # Load the model
+        with open(r"Model/blncd_xgbclassifier.joblib", "rb") as f:
+            xgbclassifier = pickle.load(f)
         if xgbclassifier is not None:
             load_message = st.empty()
             load_message.text("Model Loaded Successfully")
