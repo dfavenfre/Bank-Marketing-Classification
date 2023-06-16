@@ -21,13 +21,26 @@
 
 # Model Performance
 ## ROC Curve
-![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/d0a04e74-7a58-4c3d-aa47-38830def3d43)
+![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/861d0fc0-b25c-4f1b-b267-bcfc9afb4368)
+
 ### Confusion Matrix Report
-![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/c500a90e-75de-4751-b224-c58a2e6322cb)
+![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/deabf16d-ff15-4ae2-9ef4-02b84471434d)
 ## Precision + Recall Curve 
-![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/be849e16-3ce4-478b-a9bb-044479b4eb5d)
+![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/de3388c0-d14c-4dfb-a509-357d3cc2d4d8)
 ### Confusion Matrix Report
-![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/14a97359-6bcc-4d61-b615-7af28515c515)
+![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/ff70b620-9e36-4f96-99b5-e98fb69fa643)
+
+# Conclusion
+Two different approaches yielded almost identical performances in terms of making predictions. 
+
+| Model | Performance Metric | Score|
+| ------|-------------------| -----|
+| Imbalanced XGBClassifier| Precision + Recall| 0.95|
+| Balanced XGBClassifier| Accuracy | 0.943 |
+
+However, upon completion of feature selection, RFECV algorithm concluded significantly less features as the most important ones, with balanced data. On the contrary, Imbalanced data required more features to be able to achieve this Precision score. 
+
+Conclusion, balanced data performed superior with less data requirement. Therefore, the streamlit app will be built upon using the features selected by RFECV as the most important with balanced data.  
 
 
 
