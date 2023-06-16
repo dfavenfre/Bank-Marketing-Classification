@@ -14,7 +14,10 @@
 # Model Performance
 ## Precision + Recall Curve 
 ![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/be849e16-3ce4-478b-a9bb-044479b4eb5d)
-## Confusion Matrix Report
+### Confusion Matrix Report
 ![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/14a97359-6bcc-4d61-b615-7af28515c515)
+## ROC Curve
+
+### Confusion Matrix Report
 
 
