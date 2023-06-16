@@ -1,7 +1,13 @@
 # Bank Customer Deposit Prediction
  The streamlit app is developed upon a classification model that is trained on a [Portuguese banking institution](https://archive.ics.uci.edu/dataset/222/bank+marketing) data to make predictions whether a bank customer would subscribe to a term deposit. For model training, full data set is deployed, with approximately 41.4k rows and 21 columns. Then, the trained model is prepared for cloud deployment. The full workflow can be found down below.
 
-## Model Workflow
+# Streamlit Application
+
+
+
+# Model Workflow
+
+
 ![Ekran görüntüsü 2023-06-12 131936](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/1dbbd37d-72be-4066-b691-ee9316285c77)
 
 # Solving The Imbalance Issue
