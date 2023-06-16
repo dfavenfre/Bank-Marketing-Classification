@@ -20,12 +20,14 @@
  Moreoever, feature selection is conducted using [Recursive Feature Elimination (RFE)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html). RFE allows model to assign importance for each feature deployed. Later, the weighted features are ranked in an accordance with their corresponding importance score. The least significant features, in terms of ranking, are pruned from the model.
 
 # Model Performance
+## ROC Curve
+![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/d0a04e74-7a58-4c3d-aa47-38830def3d43)
+### Confusion Matrix Report
+![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/c500a90e-75de-4751-b224-c58a2e6322cb)
 ## Precision + Recall Curve 
 ![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/be849e16-3ce4-478b-a9bb-044479b4eb5d)
 ### Confusion Matrix Report
 ![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/14a97359-6bcc-4d61-b615-7af28515c515)
-## ROC Curve
 
-### Confusion Matrix Report
 
 
