@@ -9,7 +9,9 @@
  
 ![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/a115ce1f-9c88-47ce-a3de-9f862117adb6)
 
- First, due to the imbalanced nature of the target variable, the under-sampled target variable "yes" is synthetically re-populated using SMOTE. Thereon, the main performance metric is selected as the accuracy score of prediction. Next, under-sampled target variable, which is not be re-populated, and thus, the main performance metric is Precision - Recall Curve and scores.
+ First, due to the imbalanced nature of the target variable, the under-sampled target variable "yes" is synthetically re-populated using [SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html). Thereon, the main performance metric is selected as the accuracy score of prediction. Next, under-sampled target variable, which is not be re-populated, and thus, the main performance metric is Precision - Recall Curve and scores. 
+ 
+ Moreoever, feature selection is conducted using [Recursive Feature Elimination (RFE)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html). RFE allows model to assign importance for each feature deployed. Later, the weighted features are ranked in an accordance with their corresponding importance score. The least significant features, in terms of ranking, are pruned from the model.
 
 # Model Performance
 ## Precision + Recall Curve 
