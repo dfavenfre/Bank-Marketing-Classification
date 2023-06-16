@@ -13,7 +13,7 @@
 # Solving The Imbalance Issue
  Responses are converted to binary variables, which were labeled as "Yes" and "No" originally, for model development purposes. Approximately, 89% of the labels are "No", or 0, and the remaining are "Yes", or 1. Thereon, two different approaches were followed to develop the best model in terms of higher prediction capability.
  
-![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/a115ce1f-9c88-47ce-a3de-9f862117adb6)
+![image](https://github.com/dfavenfre/customer_deposit_classifier/assets/118773869/948c7552-7625-4aaa-a561-c6bcd5c7baa3)
 
  First, due to the imbalanced nature of the target variable, the under-sampled target variable "yes" is synthetically re-populated using [SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html). Thereon, the main performance metric is selected as the accuracy score of prediction. Next, under-sampled target variable, which is not be re-populated, and thus, the main performance metric is Precision - Recall Curve and scores. 
  
