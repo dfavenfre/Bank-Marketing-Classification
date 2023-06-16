@@ -55,7 +55,7 @@ Cython==0.29.34
 dask==2022.12.1
 datascience==0.17.6
 db-dtypes==1.1.1
-dbus-python==1.2.16
+
 debugpy==1.6.6
 decorator==4.4.2
 defusedxml==0.7.1
@@ -65,7 +65,7 @@ dm-tree==0.1.8
 docutils==0.16
 dopamine-rl==4.0.6
 duckdb==0.7.1
-earthengine-api==0.1.350
+
 easydict==1.10
 ecos==2.0.12
 editdistance==0.6.2
@@ -76,17 +76,7 @@ et-xmlfile==1.1.0
 etils==1.2.0
 etuples==0.3.8
 exceptiongroup==1.1.1
-fastai==2.7.12
-fastcore==1.5.29
-fastdownload==0.0.7
-fastjsonschema==2.16.3
-fastprogress==1.0.3
-fastrlock==0.8.1
-filelock==3.12.0
-firebase-admin==5.3.0
-Flask==2.2.4
-flatbuffers==23.3.3
-flax==0.6.9
+
 folium==0.14.0
 fonttools==4.39.3
 frozendict==2.3.7
@@ -105,8 +95,7 @@ grpcio==1.54.0
 grpcio-status==1.48.2
 gspread==3.4.2
 gspread-dataframe==3.0.8
-gym==0.25.2
-gym-notices==0.0.8
+
 h5netcdf==1.1.0
 h5py==3.8.0
 holidays==0.25
@@ -139,7 +128,7 @@ joblib==1.2.0
 jsonpickle==3.0.1
 jsonschema==4.3.3
 kiwisolver==1.4.4
-korean-lunar-calendar==0.3.1
+
 langcodes==3.3.0
 lazy_loader==0.2
 libclang==16.0.0
@@ -181,7 +170,7 @@ nbformat==5.8.0
 nest-asyncio==1.5.6
 networkx==3.1
 nibabel==3.0.2
-nltk==3.8.1
+
 notebook==6.4.8
 numba==0.56.4
 numexpr==2.8.4
@@ -194,7 +183,7 @@ opencv-python-headless==4.7.0.72
 openpyxl==3.0.10
 opt-einsum==3.3.0
 optax==0.1.5
-optuna==3.2.0
+
 orbax-checkpoint==0.2.1
 osqp==0.6.2.post8
 packaging==23.1
@@ -264,7 +253,7 @@ PySocks==1.7.1
 
 pyviz-comms==2.2.1
 PyWavelets==1.4.1
-PyYAML==6.0
+
 pyzmq==23.2.1
 qdldl==0.1.7
 qudida==0.0.4
@@ -279,7 +268,6 @@ scikit-image==0.19.3
 scikit-learn==1.2.2
 scipy==1.10.1
 scs==3.2.3
-seaborn==0.12.2
 Send2Trash==1.8.0
 shap==0.41.0
 shapely==2.0.1
