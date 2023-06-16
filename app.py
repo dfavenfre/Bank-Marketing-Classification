@@ -65,29 +65,31 @@ def main():
 
 
     # MODEL CONTENT
-
-    ## Age Feature 
-    select_age = st.date_input(label="Select A Birth Date", 
-                value=datetime.today().date(),
-                min_value=datetime(1930, 1, 1).date(),
-                max_value=datetime.today().date())
-
-    if select_age:
-        current_time = datetime.today().date()
-        select_age = datetime.strptime(str(select_age), '%Y-%m-%d')
-        age = current_time.year - select_age.year
-
+    
     ## Job Feature
     occupation_values ={"Administrative": 0,"Blue-collar": 1,"Entrepreneur": 2,"Housemaid": 3,
                         "Management": 4,"Retired": 5,"Self-employed": 6,"Services": 7,
                         "Student": 8,"Technician": 9,"Unemployed": 10}
     
-    select_job = st.selectbox("Select Occupation", list(occupation_values.keys()))
+    select_job = st.selectbox("Type of job", list(occupation_values.keys()))
     if select_job:        
         selected_job = occupation_values[select_job]
-        if selected_job:
-            st.write(selected_job)
 
+    ## Day of Week
+    day_values = {"Monday":0,"Tuesday":1,"Wednesday":2,"Thursday":3,"Friday":4,"Saturday":5,"Sunday":6,}
+    select_day = st.selectbox("Last contact day of the week", list(day_values.keys()))
+    if select_day:
+        selected_day = day_values[select_day]
+
+    ## Campaign
+
+    ## poutcome 
+
+    ## poutcome
+
+    ## cons.price.idx
+
+    ## euribor3m
 
 if __name__ == '__main__':
 	main()
