@@ -4,6 +4,7 @@ import joblib
 import time
 from datetime import datetime
 from typing import Iterable
+import pandas as pd
 import pickle
 
 def main():
