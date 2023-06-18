@@ -7,6 +7,7 @@ from datetime import datetime
 from typing import Iterable
 import pickle
 import pandas as pd
+from xgboost.sklearn import XGBClassifier
 
 # Main function
 def main():
