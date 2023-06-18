@@ -41,7 +41,7 @@ def main():
     # Load Model
     try:
         # Load the model
-        with open(r"Model/blncd_xgbclassifier.joblib", "rb") as f:
+        with open(r"Model/xgbclassifier.pkl", "rb") as f:
             xgbclassifier = pickle.load(f)
         if xgbclassifier is not None:
             load_message = st.empty()
