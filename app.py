@@ -99,11 +99,18 @@ def main():
     # Get Prediction Results
     if prediction_button:
         pred = xgbclassifier.predict(pred_df)
-        if pred ==0 :
+        pred_proba = xgbclassifier.predict_proba(pred_df)
+        max_proba = np.max(pred_proba[0]) * 100
+        # Prints Prediction, Confidence, and Prediction Summary
+        if pred[0] == 0 :
              st.write(f"Prediction Outcome: {pred[0]}")
+             st.write(f"Confidence: {max_proba:.2f}%")
+             st.write("Summary:", "\nThe customer is less likely to subscribe to a term deposit")
              
         else:
              st.write(f"Prediction Outcome: {pred[0]}")
+             st.write(f"Confidence: {max_proba:.2f}%")
+             st.write("Summary:", "\nThe customer is more likely to subscribe to a term deposit")
 
 if __name__ == '__main__':
 	main()
