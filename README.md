@@ -43,7 +43,7 @@ Two different approaches yielded almost identical performances in terms of makin
 | Imbalanced XGBClassifier| Precision + Recall| 0.95|
 | Balanced XGBClassifier| Accuracy | 0.943 |
 
-However, upon completion of feature selection, RFECV algorithm concluded significantly less features as the most important ones, with balanced data. On the contrary, Imbalanced data required more features to be able to achieve this Precision score. 
+However, upon completion of feature selection, RFECV algorithm concluded significantly less features as the most important ones, with balanced data. On the contrary, Imbalanced data required more features to be able to achieve this accuracy score. 
 
 Conclusion, balanced data performed superior with less data requirement. Therefore, the streamlit app will be built upon using the features selected by RFECV as the most important with balanced data.  
 
